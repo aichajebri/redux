@@ -1,0 +1,15 @@
+.h1 {
+  height: 50vh;
+  width: 50vw;
+  background-color: rgb(172, 206, 195);
+  display: ruby-base-container;
+  place-items: center;
+}
+.label {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.todo {
+  background-color: #3cbc8d;
+  color: white;
+  border: 0ch;
+}
