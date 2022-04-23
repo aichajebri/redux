@@ -1,0 +1,30 @@
+.App {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  left: 33%;
+  top: 10%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #050b31;
+  border: #050b31 solid;
+  width: 600px;
+  height: 80%;
+  overflow: auto;
+}
+
+.select-status__styling {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+#select__styling {
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+.title {
+  font-weight: bolder;
+}

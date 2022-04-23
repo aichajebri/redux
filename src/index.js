@@ -1,18 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
-import { createStore } from "redux";
-import App from "./components/App";
-import rootReducer from "./reducers";
-import ItemList from "./components/ItemList";
-import "./index.css";
-const store = createStore(rootReducer);
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import App from './App';
+import store from '../src/redux/store';
+import { Provider } from 'react-redux';
+
+
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-    <hr />
-    <ItemList />
-  </Provider>,
-  document.getElementById("root")
+  <React.StrictMode> 
+  <Provider store ={ store }>
+  <App />
+  </Provider>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
+
+
